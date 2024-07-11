@@ -47,9 +47,23 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        if (YandexGame.savesData.questionsHave = null)
+        QuestionsNotHave = new List<QuestionScriptable>();
+        QuestionsHave = new List<QuestionScriptable>();
+        if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
-            QuestionsNotHave = 
+            for(int i = 0; i < 4; i++)
+            {
+                QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
+            }
+            print(QuestionsNotHave);
+            YandexGame.savesData.questionsNotHave = new List<QuestionScriptable>();
+            YandexGame.savesData.questionsNotHave = QuestionsNotHave;
+            YandexGame.SaveProgress();
+        }
+        else
+        {
+            QuestionsHave = YandexGame.savesData.questionsHave;
+            QuestionsNotHave = YandexGame.savesData.questionsNotHave;
         }
     }
 
@@ -61,20 +75,20 @@ public class GameManager : MonoBehaviour
 
         switch (packName)
         {
-            case "nature":
-                //currentPack = basicQuestions;
-                foreach (var que in NatureQ)
-                {
-                    currentPack.Add(que);
-                }
-                break;
-            
-            default:
-                foreach (var que in NatureQ)
-                {
-                    currentPack.Add(que);
-                }
-                break;
+            // case "nature":
+            //     //currentPack = basicQuestions;
+            //     foreach (var que in NatureQ)
+            //     {
+            //         currentPack.Add(que);
+            //     }
+            //     break;
+            //
+            // default:
+            //     foreach (var que in NatureQ)
+            //     {
+            //         currentPack.Add(que);
+            //     }
+            //     break;
         }
         
         NextQuestion();
@@ -133,6 +147,12 @@ public class GameManager : MonoBehaviour
             A.text = question.tr_a;
             B.text = question.tr_b;
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        YandexGame.ResetSaveProgress();
+        YandexGame.SaveProgress();
     }
 
     public enum QuestionGroup

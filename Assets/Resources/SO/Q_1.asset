@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
-  m_Name: Basic_2
+  m_Name: Q_1
   m_EditorClassIdentifier: 
-  Group: 2
+  Group: 1
   p1: 24
-  p2: 42
-  ru_a: 2
-  en_a: 2
+  p2: 53
+  ru_a: "\u041B\u0435\u0442\u043E"
+  en_a: 1
   tr_a: 
-  ru_b: 2
-  en_b: 2
+  ru_b: "\u0417\u0438\u043C\u0430"
+  en_b: 1
   tr_b: 

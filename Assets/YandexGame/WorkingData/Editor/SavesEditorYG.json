@@ -1,7 +1,7 @@
 {
-  "idSave": 17,
+  "idSave": 284,
   "isFirstSession": false,
-  "language": "en",
+  "language": "ru",
   "promptDone": false,
   "money": 1,
   "newPlayerName": "Hello!",
@@ -10,8 +10,10 @@
     true,
     false
   ],
-  "exitTime": "7/11/2024 5:26:57 PM",
-  "timeSmallChest": 60.0,
-  "timeBigChest": 273.161,
-  "timeLargeChest": -1550.32129
+  "exitTime": "7/11/2024 6:35:53 PM",
+  "timeSmallChest": 0.0,
+  "timeBigChest": 169.8405,
+  "timeLargeChest": 472.398071,
+  "questionsHave": [],
+  "questionsNotHave": []
 }

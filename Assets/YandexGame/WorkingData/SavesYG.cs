@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 namespace YG
 {
     [System.Serializable]
@@ -24,8 +26,8 @@ namespace YG
         public float timeBigChest = 0;
         public float timeLargeChest = 0;
 
-        public QuestionScriptable questionsHave = null;
-        public QuestionScriptable questionsNotHave = null;
+        public List<QuestionScriptable> questionsHave = new List<QuestionScriptable>();
+        public List<QuestionScriptable> questionsNotHave = new List<QuestionScriptable>();
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
 

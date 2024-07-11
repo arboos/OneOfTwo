@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
-  m_Name: Basic_0
+  m_Name: Q_2
   m_EditorClassIdentifier: 
-  p1: 33
-  p2: 67
-  ru_a: "\u0417\u0430\u0432\u0435\u0441\u0442\u0438 \u043A\u043E\u0448\u043A\u0443"
-  en_a: Have a cat
+  Group: 2
+  p1: 24
+  p2: 42
+  ru_a: 2
+  en_a: 2
   tr_a: 
-  ru_b: "\u0417\u0430\u0432\u0435\u0441\u0442\u0438 \u0441\u043E\u0431\u0430\u043A\u0443"
-  en_b: Have a dog
+  ru_b: 2
+  en_b: 2
   tr_b: 

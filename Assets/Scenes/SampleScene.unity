@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canOpen: 0
   type: 0
-  timeToOpen: 60
+  timeToOpen: 3
   currentTimeToOpen: 3
 --- !u!1 &318894622
 GameObject:
@@ -5360,6 +5360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lootLayout: {fileID: 483459782}
   CardPrefab: {fileID: 7894755554537008618, guid: 9c76f6db72b55584fa9f4659ebc8b54e, type: 3}
+  AcceptButton: {fileID: 1657962106}
+  questionsToUnlock: []
 --- !u!1 &999016439
 GameObject:
   m_ObjectHideFlags: 0
@@ -6355,18 +6357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: 0
-  NatureQ: []
-  FoodQ: []
-  CarsQ: []
-  GamesQ: []
-  NatureQ_NotHave:
-  - {fileID: 11400000, guid: 272a5583817452f438576834a8561af0, type: 2}
-  FoodQ_NotHave:
-  - {fileID: 11400000, guid: 6c55f9c733591064498f5ff41004cd12, type: 2}
-  CarsQ_NotHave:
-  - {fileID: 11400000, guid: 1f72fa412e70f2e47868674f0cdf49ee, type: 2}
-  GamesQ_NotHave:
-  - {fileID: 11400000, guid: 8723b6f868c274f499349aad97d6ee9e, type: 2}
+  QuestionsHave: []
+  QuestionsNotHave: []
   Menu: {fileID: 1465233932}
   Chest: {fileID: 989356449}
   Gameplay: {fileID: 0}
@@ -9910,12 +9902,12 @@ GameObject:
   - component: {fileID: 1657962103}
   - component: {fileID: 1657962107}
   m_Layer: 5
-  m_Name: BackToMenu
+  m_Name: AcceptButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1657962102
 RectTransform:
   m_ObjectHideFlags: 0
