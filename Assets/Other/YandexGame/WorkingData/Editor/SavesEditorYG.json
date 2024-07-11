@@ -1,0 +1,17 @@
+{
+  "idSave": 44,
+  "isFirstSession": false,
+  "language": "en",
+  "promptDone": false,
+  "money": 1,
+  "newPlayerName": "Hello!",
+  "openLevels": [
+    false,
+    true,
+    false
+  ],
+  "exitTime": "7/11/2024 1:48:33 PM",
+  "timeSmallChest": 35.3797569,
+  "timeBigChest": 274.786163,
+  "timeLargeChest": 575.910156
+}

@@ -18,7 +18,14 @@ namespace YG
 
         // Ваши сохранения
 
-        // ...
+        public string exitTime = "";
+        
+        public float timeSmallChest = 0;
+        public float timeBigChest = 0;
+        public float timeLargeChest = 0;
+
+        public QuestionScriptable questionsHave = null;
+        public QuestionScriptable questionsNotHave = null;
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
 

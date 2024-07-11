@@ -216,7 +216,8 @@ MonoBehaviour:
     de: 0
     hi: 0
   fonts:
-    defaultFont: []
+    defaultFont:
+    - {fileID: 0}
     ru: []
     en: []
     tr: []
@@ -245,9 +246,12 @@ MonoBehaviour:
     de: []
     hi: []
   fontsTMP:
-    defaultFont: []
-    ru: []
-    en: []
+    defaultFont:
+    - {fileID: 11400000, guid: 014b40908c93e3f47b0c0ec6ddf42b39, type: 2}
+    ru:
+    - {fileID: 11400000, guid: 014b40908c93e3f47b0c0ec6ddf42b39, type: 2}
+    en:
+    - {fileID: 11400000, guid: 4e8267546399d944d9e9612356656e89, type: 2}
     tr: []
     az: []
     be: []
