@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
-  m_Name: Q_1
+  m_Name: Q_23
   m_EditorClassIdentifier: 
-  Group: 0
-  p1: 27
-  p2: 73
-  ru_a: "\u0412\u0435\u0447\u043D\u0430\u044F \u0436\u0430\u0440\u0430"
-  en_a: Eternal heat
-  tr_a: "Sonsuz \u0131s\u0131"
-  ru_b: "\u0412\u0435\u0447\u043D\u0430\u044F \u043C\u0435\u0440\u0437\u043B\u043E\u0442\u0430"
-  en_b: Permafrost
-  tr_b: Permafrost
+  Group: 1
+  p1: 72
+  p2: 28
+  ru_a: "\u041E\u0431\u044B\u0447\u043D\u0430\u044F \u0432\u043E\u0434\u0430"
+  en_a: Plain water
+  tr_a: Sade su
+  ru_b: "\u0413\u0430\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u0430\u044F
+    \u0432\u043E\u0434\u0430"
+  en_b: Sparkling water
+  tr_b: "K\xF6p\xFCkl\xFC su"

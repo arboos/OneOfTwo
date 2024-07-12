@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_3
   m_EditorClassIdentifier: 
-  Group: 3
-  p1: 24
-  p2: 12
-  ru_a: 3
-  en_a: 3
-  tr_a: 
-  ru_b: 3
-  en_b: 3
-  tr_b: 
+  Group: 0
+  p1: 71
+  p2: 29
+  ru_a: "\u0420\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0432 \u0433\u043E\u0440\u043E\u0434\u0435"
+  en_a: Work in the city
+  tr_a: "\u015Eehirde \xE7al\u0131\u015Fmak"
+  ru_b: "\u0420\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u043D\u0430 \u043F\u0440\u0438\u0440\u043E\u0434\u0435"
+  en_b: Work in nature
+  tr_b: "Do\u011Fada \xE7al\u0131\u015Fmak"

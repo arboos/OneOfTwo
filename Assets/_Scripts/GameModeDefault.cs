@@ -12,16 +12,21 @@ public class GameModeDefault : MonoBehaviour
 
     public Button cardA;
     public Button cardB;
-    
-    public Button OpenChest;
+
+    public Sprite chestSmall;
+    public Sprite chestBig;
+    public Sprite chestLarge;
 
     public TextMeshProUGUI questionsCount;
 
-    private Image spriteIcon;
+    public GameObject awardWindow;
+    public GameObject gameplayWindow;
+    public Image chestToGiveImage;
+    public Button openReward;
+    
 
     private void Start()
     {
-        spriteIcon = GetComponent<Image>();
 
         cardA.onClick.AddListener(delegate { notAnswered = false;
             cardA.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);cardB.interactable = false;
@@ -47,10 +52,8 @@ public class GameModeDefault : MonoBehaviour
     {
         foreach (var question in questions)
         {
-            
-
-            cardA.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p1.ToString();
-            cardB.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p2.ToString();
+            cardA.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p1.ToString()+"%";
+            cardB.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p2.ToString()+"%";
             
             cardA.transform.GetChild(1).gameObject.SetActive(false);
             cardB.transform.GetChild(1).gameObject.SetActive(false);
@@ -82,6 +85,8 @@ public class GameModeDefault : MonoBehaviour
             cardA.GetComponent<Animator>().SetTrigger("In");
             cardB.GetComponent<Animator>().SetTrigger("In");
             
+            GetComponent<Image>().sprite = Resources.Load<Sprite>("SO/Sprites/"+question.Group.ToString());
+            
             while (notAnswered)
             {
                 yield return new WaitForEndOfFrame();
@@ -101,9 +106,32 @@ public class GameModeDefault : MonoBehaviour
 
             notAnswered = true;
         }
+
+        gameplayWindow.SetActive(false);
+        awardWindow.SetActive(true);
+        if (questions.Count <= 10)
+        {
+            chestToGiveImage.sprite = chestSmall;
+            openReward.onClick.AddListener(delegate{   
+                OpenWinChest(Chest.ChestType.Small); GameManager.Instance.Menu.SetActive(true);});
+                
+        }
+        else if (questions.Count > 10 && questions.Count <= 25)
+        {
+            chestToGiveImage.sprite = chestBig;
+            openReward.onClick.AddListener(delegate{   
+                OpenWinChest(Chest.ChestType.Big); GameManager.Instance.Menu.SetActive(true);});
+            
+        }
+        else
+        {
+            chestToGiveImage.sprite = chestLarge;
+            openReward.onClick.AddListener(delegate{   
+                OpenWinChest(Chest.ChestType.Large); GameManager.Instance.Menu.SetActive(true);});
+            
+        }
         
-        GameManager.Instance.Menu.SetActive(true);
-        OpenWinChest(Chest.ChestType.Small);
+
 
     }
     

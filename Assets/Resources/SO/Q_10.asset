@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_10
   m_EditorClassIdentifier: 
-  Group: 3
+  Group: 0
   p1: 24
-  p2: 12
-  ru_a: 3
-  en_a: 3
-  tr_a: 
-  ru_b: 3
-  en_b: 3
-  tr_b: 
+  p2: 76
+  ru_a: "\u0415\u0445\u0430\u0442\u044C \u043D\u0430 \u043F\u043E\u0435\u0437\u0434\u0435"
+  en_a: Take the train
+  tr_a: Trene bin
+  ru_b: "\u041B\u0435\u0442\u0435\u0442\u044C \u043D\u0430 \u0441\u0430\u043C\u043E\u043B\u0435\u0442\u0435"
+  en_b: Flying by plane
+  tr_b: "U\xE7akla u\xE7mak"

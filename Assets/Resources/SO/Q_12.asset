@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_12
   m_EditorClassIdentifier: 
-  Group: 3
-  p1: 24
-  p2: 12
-  ru_a: 3
-  en_a: 3
-  tr_a: 
-  ru_b: 3
-  en_b: 3
-  tr_b: 
+  Group: 0
+  p1: 80
+  p2: 20
+  ru_a: "\u0412\u0437\u044F\u0442\u044C \u0432 \u043F\u043E\u0445\u043E\u0434 \u043A\u0430\u0440\u0442\u044B
+    \u0438 \u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043D\u044B\u0435 \u0438\u0433\u0440\u044B"
+  en_a: Take maps and board games on a hike
+  tr_a: "Y\xFCr\xFCy\xFC\u015Fe haritalar ve masa oyunlar\u0131 al\u0131n"
+  ru_b: "\u0412\u0437\u044F\u0442\u044C \u0432 \u043F\u043E\u0445\u043E\u0434 \u0433\u0438\u0442\u0430\u0440\u0443"
+  en_b: Take a guitar on a hike
+  tr_b: "Y\xFCr\xFCy\xFC\u015Fe bir gitar al"

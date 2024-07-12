@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
-  m_Name: Q_0
+  m_Name: Q_16
   m_EditorClassIdentifier: 
   Group: 0
-  p1: 45
-  p2: 55
-  ru_a: "\u0414\u043E\u043C \u0441 \u0432\u0438\u0434\u043E\u043C \u043D\u0430 \u043C\u043E\u0440\u0435"
-  en_a: House with sea view
-  tr_a: "Deniz manzaral\u0131 ev"
-  ru_b: "\u0414\u043E\u043C \u0441 \u0432\u0438\u0434\u043E\u043C \u043D\u0430 \u0433\u043E\u0440\u044B"
-  en_b: House with mountain view
-  tr_b: "Da\u011F manzaral\u0131 ev"
+  p1: 49
+  p2: 51
+  ru_a: "\u041E\u0445\u043E\u0442\u0430"
+  en_a: Hunting
+  tr_a: "Avc\u0131l\u0131k"
+  ru_b: "\u0420\u044B\u0431\u0430\u043B\u043A\u0430"
+  en_b: Fishing
+  tr_b: "Bal\u0131k tutma"

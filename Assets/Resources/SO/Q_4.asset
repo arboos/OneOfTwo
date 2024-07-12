@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_4
   m_EditorClassIdentifier: 
-  p1: 33
-  p2: 67
-  ru_a: "\u0417\u0430\u0432\u0435\u0441\u0442\u0438 \u043A\u043E\u0448\u043A\u0443"
-  en_a: Have a cat
-  tr_a: 
-  ru_b: "\u0417\u0430\u0432\u0435\u0441\u0442\u0438 \u0441\u043E\u0431\u0430\u043A\u0443"
-  en_b: Have a dog
-  tr_b: 
+  Group: 0
+  p1: 60
+  p2: 40
+  ru_a: "\u0417\u0430\u0431\u044B\u0442\u044C \u0432\u0437\u044F\u0442\u044C \u0432
+    \u043F\u043E\u0445\u043E\u0434 \u0441\u043F\u0438\u0447\u043A\u0438"
+  en_a: Forget to take matches on a camping trip
+  tr_a: "Kamp gezisinde kibrit almay\u0131 unutun"
+  ru_b: "\u0417\u0430\u0431\u044B\u0442\u044C \u0432\u0437\u044F\u0442\u044C \u0432
+    \u043F\u043E\u0445\u043E\u0434 \u043F\u0430\u043B\u0430\u0442\u043A\u0443"
+  en_b: Forget to take a tent camping
+  tr_b: "Kamp \xE7ad\u0131r\u0131 almay\u0131 unut"

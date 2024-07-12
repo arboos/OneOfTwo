@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_2
   m_EditorClassIdentifier: 
-  Group: 2
-  p1: 24
-  p2: 42
-  ru_a: 2
-  en_a: 2
-  tr_a: 
-  ru_b: 2
-  en_b: 2
-  tr_b: 
+  Group: 0
+  p1: 86
+  p2: 14
+  ru_a: "\u041F\u043B\u0430\u0432\u0430\u0442\u044C \u0432 \u043C\u043E\u0440\u0435"
+  en_a: Swimming in the sea
+  tr_a: "Denizde y\xFCzmek"
+  ru_b: "\u041F\u043B\u0430\u0432\u0430\u0442\u044C \u0432 \u0440\u0435\u043A\u0435"
+  en_b: Swim in the river
+  tr_b: "Denizde y\xFCzmek"

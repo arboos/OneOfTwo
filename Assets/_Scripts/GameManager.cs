@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
             // i < {Resources/SO/Questions_Count}
-            for(int i = 0; i < 13; i++)
+            for(int i = 0; i < 25; i++)
             {
                 QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
                 QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));

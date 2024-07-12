@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_11
   m_EditorClassIdentifier: 
-  Group: 3
-  p1: 24
-  p2: 12
-  ru_a: 3
-  en_a: 3
-  tr_a: 
-  ru_b: 3
-  en_b: 3
-  tr_b: 
+  Group: 0
+  p1: 60
+  p2: 40
+  ru_a: "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0432 \u042F\u043F\u043E\u043D\u0438\u044E "
+  en_a: Business trip to Japan
+  tr_a: "Japonya'ya i\u015F gezisi"
+  ru_b: "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0440\u043E\u0432\u043A\u0430
+    \u0432 \u0424\u0438\u043D\u043B\u044F\u043D\u0434\u0438\u044E"
+  en_b: Business trip to Finland
+  tr_b: "Finlandiya'ya i\u015F gezisi"

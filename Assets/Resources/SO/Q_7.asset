@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
   m_Name: Q_7
   m_EditorClassIdentifier: 
-  Group: 1
-  p1: 33
-  p2: 67
-  ru_a: afafaf
-  en_a: afafaf
-  tr_a: 
-  ru_b: afafafaf
-  en_b: Have a dog
-  tr_b: 
+  Group: 0
+  p1: 96
+  p2: 4
+  ru_a: "\u041D\u0435\u0434\u0435\u043B\u044F \u043D\u0430 \u043D\u0435\u043E\u0431\u0438\u0442\u0430\u0435\u043C\u043E\u043C
+    \u043E\u0441\u0442\u0440\u043E\u0432\u0435"
+  en_a: A week on a desert island
+  tr_a: "Iss\u0131z bir adada bir hafta"
+  ru_b: "\u041D\u0435\u0434\u0435\u043B\u044F \u0432 \u0434\u0436\u0443\u043D\u0433\u043B\u044F\u0445"
+  en_b: A week in the jungle
+  tr_b: Ormanda bir hafta
