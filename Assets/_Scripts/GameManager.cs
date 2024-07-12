@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public List<QuestionScriptable> QuestionsHave;
     
     public List<QuestionScriptable> QuestionsNotHave;
+    
+    public List<QuestionScriptable> QuestionsAllList;
 
     
     [Header("GameObjects")] 
@@ -49,12 +51,14 @@ public class GameManager : MonoBehaviour
     {
         QuestionsNotHave = new List<QuestionScriptable>();
         QuestionsHave = new List<QuestionScriptable>();
+        QuestionsAllList = new List<QuestionScriptable>();
         if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
             // i < {Resources/SO/Questions_Count}
             for(int i = 0; i < 13; i++)
             {
                 QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
+                QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
             }
             print(QuestionsNotHave);
             YandexGame.savesData.questionsNotHave = new List<QuestionScriptable>();

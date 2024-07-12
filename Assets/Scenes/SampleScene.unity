@@ -1902,6 +1902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 330637756}
   - component: {fileID: 330637758}
+  - component: {fileID: 330637759}
   - component: {fileID: 330637757}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -2026,6 +2027,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330637755}
   m_CullTransparentMesh: 1
+--- !u!114 &330637759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330637755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a8cee759bb54d4289b5bf9bc142a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group: 1
 --- !u!1 &342304880
 GameObject:
   m_ObjectHideFlags: 0
@@ -5112,6 +5126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942130170}
   - component: {fileID: 942130172}
+  - component: {fileID: 942130173}
   - component: {fileID: 942130171}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -5236,6 +5251,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942130169}
   m_CullTransparentMesh: 1
+--- !u!114 &942130173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942130169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a8cee759bb54d4289b5bf9bc142a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group: 2
 --- !u!1 &943787250
 GameObject:
   m_ObjectHideFlags: 0
@@ -6595,6 +6623,7 @@ MonoBehaviour:
   coins: 0
   QuestionsHave: []
   QuestionsNotHave: []
+  QuestionsAllList: []
   Menu: {fileID: 1465233932}
   Chest: {fileID: 989356449}
   Gameplay: {fileID: 0}
@@ -7726,6 +7755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248481339}
   - component: {fileID: 1248481341}
+  - component: {fileID: 1248481342}
   - component: {fileID: 1248481340}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -7850,6 +7880,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248481338}
   m_CullTransparentMesh: 1
+--- !u!114 &1248481342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248481338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a8cee759bb54d4289b5bf9bc142a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group: 3
 --- !u!1 &1278465551
 GameObject:
   m_ObjectHideFlags: 0
@@ -9467,6 +9510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1530773859}
   - component: {fileID: 1530773861}
+  - component: {fileID: 1530773862}
   - component: {fileID: 1530773860}
   m_Layer: 5
   m_Name: Text (TMP) (1)
@@ -9591,6 +9635,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530773858}
   m_CullTransparentMesh: 1
+--- !u!114 &1530773862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530773858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c519414b40b5248a5201a4f9eeff1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1540220414
 GameObject:
   m_ObjectHideFlags: 0
@@ -12876,6 +12932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954908448}
   - component: {fileID: 1954908450}
+  - component: {fileID: 1954908451}
   - component: {fileID: 1954908449}
   m_Layer: 5
   m_Name: Text (TMP)
@@ -13000,6 +13057,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954908447}
   m_CullTransparentMesh: 1
+--- !u!114 &1954908451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954908447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a8cee759bb54d4289b5bf9bc142a56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group: 0
 --- !u!1 &2009797703
 GameObject:
   m_ObjectHideFlags: 0
