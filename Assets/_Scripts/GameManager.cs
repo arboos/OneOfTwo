@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public GameObject Menu;
     public GameObject Chest;
     public GameObject Gameplay;
+    public GameObject GameMode_Default;
 
     public TextMeshProUGUI A;
     public TextMeshProUGUI B;
@@ -106,7 +107,28 @@ public class GameManager : MonoBehaviour
         questions.Remove(question);
         return question;
     }
-    
+
+    public void StartDefaultMode(int countQ)
+    {
+        List<QuestionScriptable> questionsHave = new List<QuestionScriptable>();
+        List<QuestionScriptable> questionsToStart = new List<QuestionScriptable>();
+        foreach (var question in QuestionsHave)
+        {
+            questionsHave.Add(question);
+        }
+
+        for (int i = 0; i < countQ; i++)
+        {
+            int id = Random.Range(0, questionsHave.Count);
+            QuestionScriptable question = questionsHave[id];
+            questionsToStart.Add(question);
+            questionsHave.Remove(question);
+        }
+        
+        Menu.SetActive(false);
+        GameMode_Default.SetActive(true);
+        GameMode_Default.GetComponent<GameModeDefault>().StartGameVoid(questionsToStart);
+    }
     
     public void AnswerQuestion()
     {
@@ -133,6 +155,7 @@ public class GameManager : MonoBehaviour
             Gameplay.SetActive(false);
             Menu.SetActive(true);
         }
+        
         QuestionScriptable question = GetRandomQuestion(currentPack);
         percentA.text = question.p1.ToString();
         percentB.text = question.p2.ToString();

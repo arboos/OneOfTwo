@@ -31,7 +31,6 @@ public class Chest : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
         if (currentTimeToOpen <= 0f && !canOpen)
         {
             _button.interactable = true;
