@@ -187,11 +187,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // private void OnApplicationQuit()
-    // {
-    //     YandexGame.ResetSaveProgress();
-    //     YandexGame.SaveProgress();
-    // }
+    private void OnApplicationQuit()
+    {
+        YandexGame.ResetSaveProgress();
+        YandexGame.SaveProgress();
+    }
 
     public enum QuestionGroup
     {

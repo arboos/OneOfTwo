@@ -59,12 +59,10 @@ public class ChestOpener : MonoBehaviour
         //Sorting questionsToUnlock for count of similar type of cards 
         for (int i = 0; i < questionsToUnlock.Count; i++)
         {
-            print("Sort" + i);
             for (int j = i+1; j < questionsToUnlock.Count; j++)
             {
                 if (questionsToUnlock[i].Group == questionsToUnlock[j].Group)
                 {
-                    print("Sort_J" + i);
                     QuestionScriptable questionTemp = questionsToUnlock[i + 1];
                     questionsToUnlock[i + 1] = questionsToUnlock[j];
                     questionsToUnlock[j] = questionTemp;
