@@ -53,13 +53,17 @@ public class GameManager : MonoBehaviour
         QuestionsNotHave = new List<QuestionScriptable>();
         QuestionsHave = new List<QuestionScriptable>();
         QuestionsAllList = new List<QuestionScriptable>();
+        for(int i = 0; i < 50; i++)
+        {
+            QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
+            QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
+        }
         if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
             // i < {Resources/SO/Questions_Count}
-            for(int i = 0; i < 25; i++)
+            for(int i = 0; i < 50; i++)
             {
                 QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
-                QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
             }
             print(QuestionsNotHave);
             YandexGame.savesData.questionsNotHave = new List<QuestionScriptable>();
@@ -110,6 +114,7 @@ public class GameManager : MonoBehaviour
 
     public void StartDefaultMode(int countQ)
     {
+        print("COUNT Q = " + countQ);
         List<QuestionScriptable> questionsHave = new List<QuestionScriptable>();
         List<QuestionScriptable> questionsToStart = new List<QuestionScriptable>();
         foreach (var question in QuestionsHave)
@@ -123,6 +128,11 @@ public class GameManager : MonoBehaviour
             QuestionScriptable question = questionsHave[id];
             questionsToStart.Add(question);
             questionsHave.Remove(question);
+        }
+
+        foreach (var q1 in questionsToStart)
+        {
+            print("Question "+q1);
         }
         
         Menu.SetActive(false);
@@ -177,11 +187,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void OnApplicationQuit()
-    {
-        YandexGame.ResetSaveProgress();
-        YandexGame.SaveProgress();
-    }
+    // private void OnApplicationQuit()
+    // {
+    //     YandexGame.ResetSaveProgress();
+    //     YandexGame.SaveProgress();
+    // }
 
     public enum QuestionGroup
     {

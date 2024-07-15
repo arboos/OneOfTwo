@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_40
+  m_EditorClassIdentifier: 
+  Group: 1
+  p1: 55
+  p2: 45
+  ru_a: "\u0421\u044A\u0435\u0441\u0442\u044C \u0441\u0430\u043C\u044B\u0439 \u043E\u0441\u0442\u0440\u044B\u0439
+    \u043F\u0435\u0440\u0435\u0446 \u0432 \u043C\u0438\u0440\u0435 "
+  en_a: Eat the hottest pepper in the world
+  tr_a: "D\xFCnyan\u0131n en ac\u0131 biberini ye"
+  ru_b: "\u0421\u044A\u0435\u0441\u0442\u044C \u043A\u0438\u043B\u043B\u043E\u0433\u0440\u0430\u043C
+    \u0441\u044B\u0440\u043E\u0433\u043E \u043C\u044F\u0441\u0430"
+  en_b: Eat a kilogram of raw meat
+  tr_b: "Bir kilogram \xE7i\u011F et yiyin"
