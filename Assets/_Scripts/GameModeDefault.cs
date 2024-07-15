@@ -19,6 +19,7 @@ public class GameModeDefault : MonoBehaviour
     public Sprite chestLarge;
 
     public TextMeshProUGUI questionsCount;
+    public int questionsCountInt;
 
     public GameObject awardWindow;
     public GameObject gameplayWindow;
@@ -61,8 +62,11 @@ public class GameModeDefault : MonoBehaviour
         awardWindow.SetActive(false);
         cardA.animator.SetTrigger("In");
         cardB.animator.SetTrigger("In");
+        questionsCountInt = 0;
         foreach (var question in questions)
         {
+            questionsCountInt++;
+            questionsCount.text = questionsCountInt.ToString() + "/" + questions.Count;
             cardA.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p1.ToString() + "%";
             cardB.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p2.ToString() + "%";
 
@@ -103,7 +107,7 @@ public class GameModeDefault : MonoBehaviour
                 yield return new WaitForFixedUpdate();
                 print("Return");
             }
-            
+
             cardA.transform.GetChild(1).gameObject.SetActive(true);
             cardB.transform.GetChild(1).gameObject.SetActive(true);
 
