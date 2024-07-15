@@ -51,7 +51,6 @@ public class ChestOpener : MonoBehaviour
         
         for (int i = Random.Range(iMin, iMax); i > 0; i--)
         {
-            print(1);
             if (GameManager.Instance.QuestionsNotHave.Count == 0) break;
             questionsToUnlock.Add(GetRandomQuestionToUnlock());
             GameManager.Instance.QuestionsNotHave.Remove(questionsToUnlock[questionsToUnlock.Count-1]);
