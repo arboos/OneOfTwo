@@ -249,7 +249,7 @@ MonoBehaviour:
     defaultFont:
     - {fileID: 11400000, guid: 014b40908c93e3f47b0c0ec6ddf42b39, type: 2}
     ru:
-    - {fileID: 11400000, guid: 014b40908c93e3f47b0c0ec6ddf42b39, type: 2}
+    - {fileID: 11400000, guid: d0e0c37c760975e409f65c1b1789de67, type: 2}
     en:
     - {fileID: 11400000, guid: 4e8267546399d944d9e9612356656e89, type: 2}
     tr: []

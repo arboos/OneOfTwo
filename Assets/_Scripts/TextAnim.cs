@@ -10,7 +10,6 @@ public class TextAnim : MonoBehaviour
 
     private void Start()
     {
-        
         _transform = GetComponent<RectTransform>();
         _button = GetComponent<Button>();
         
@@ -25,7 +24,6 @@ public class TextAnim : MonoBehaviour
         _button.AddComponent<EventTrigger>();
         _button.GetComponent<EventTrigger>().triggers.Add(bigButt);
         _button.GetComponent<EventTrigger>().triggers.Add(smallButt);
-        
     }
     
     

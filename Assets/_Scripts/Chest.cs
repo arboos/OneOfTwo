@@ -101,7 +101,6 @@ public class Chest : MonoBehaviour
 
     private void OnDisable()
     {
-        print("Disable");
         switch (type)
         {
             case ChestType.Small:

@@ -26,6 +26,10 @@ namespace YG
         public float timeBigChest = 0;
         public float timeLargeChest = 0;
 
+        public int qAnswered;
+        public int rAnswered;
+        public int bAnswered;
+        
         public List<QuestionScriptable> questionsHave = new List<QuestionScriptable>();
         public List<QuestionScriptable> questionsNotHave = new List<QuestionScriptable>();
 

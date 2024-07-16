@@ -35,12 +35,18 @@ public class GameModeDefault : MonoBehaviour
             notAnswered = false;
             cardA.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
             cardB.interactable = false;
+            Tasks.Instance.blueAnswered++;
+            YandexGame.savesData.bAnswered = Tasks.Instance.blueAnswered;
+            YandexGame.SaveProgress();
         });
         cardB.onClick.AddListener(delegate
         {
             notAnswered = false;
             cardB.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
             cardA.interactable = false;
+            Tasks.Instance.redAnswered++;
+            YandexGame.savesData.rAnswered = Tasks.Instance.redAnswered;
+            YandexGame.SaveProgress();
         });
         openReward.onClick.AddListener(delegate
         {
@@ -115,6 +121,10 @@ public class GameModeDefault : MonoBehaviour
                 yield return new WaitForFixedUpdate();
                 print("Return");
             }
+
+            Tasks.Instance.questionsAnswered++;
+            YandexGame.savesData.qAnswered++;
+            YandexGame.SaveProgress();
 
             cardA.transform.GetChild(1).gameObject.SetActive(true);
             cardB.transform.GetChild(1).gameObject.SetActive(true);
