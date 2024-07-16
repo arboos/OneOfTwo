@@ -26,6 +26,7 @@ public class GameModeDefault : MonoBehaviour
     public Image chestToGiveImage;
     public Button openReward;
 
+    public Chest.ChestType chestType;
 
     private void Start()
     {
@@ -40,6 +41,13 @@ public class GameModeDefault : MonoBehaviour
             notAnswered = false;
             cardB.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
             cardA.interactable = false;
+        });
+        openReward.onClick.AddListener(delegate
+        {
+            OpenWinChest(chestType);
+            GameManager.Instance.Menu.SetActive(true);
+            awardWindow.SetActive(false);
+            gameplayWindow.SetActive(true);
         });
     }
 
@@ -126,35 +134,17 @@ public class GameModeDefault : MonoBehaviour
         if (questions.Count <= 10)
         {
             chestToGiveImage.sprite = chestSmall;
-            openReward.onClick.AddListener(delegate
-            {
-                OpenWinChest(Chest.ChestType.Small);
-                GameManager.Instance.Menu.SetActive(true);
-                awardWindow.SetActive(false);
-                gameplayWindow.SetActive(true);
-            });
+            chestType = Chest.ChestType.Small;
         }
         else if (questions.Count > 10 && questions.Count <= 25)
         {
             chestToGiveImage.sprite = chestBig;
-            openReward.onClick.AddListener(delegate
-            {
-                OpenWinChest(Chest.ChestType.Big);
-                GameManager.Instance.Menu.SetActive(true);
-                awardWindow.SetActive(false);
-                gameplayWindow.SetActive(true);
-            });
+            chestType = Chest.ChestType.Big;
         }
         else
         {
             chestToGiveImage.sprite = chestLarge;
-            openReward.onClick.AddListener(delegate
-            {
-                OpenWinChest(Chest.ChestType.Large);
-                GameManager.Instance.Menu.SetActive(true);
-                awardWindow.SetActive(false);
-                gameplayWindow.SetActive(true);
-            });
+            chestType = Chest.ChestType.Large;
         }
     }
 }

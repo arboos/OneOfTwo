@@ -11,7 +11,13 @@ public class CardsCountSelect : MonoBehaviour
 
     [SerializeField] private Button startGameButton;
     
-    public int valueCurrent;
+    [SerializeField] private Sprite cSmall;
+    [SerializeField] private Sprite cBig;
+    [SerializeField] private Sprite cLarge;
+    
+    [SerializeField] private Image awardImage;
+    
+    public int valueCurrent = 5;
 
     [SerializeField] private Slider slider;
 
@@ -39,8 +45,20 @@ public class CardsCountSelect : MonoBehaviour
         valueSlider = slider.value;
         valueCurrent = 5 + (int)((maxValue-5) * valueSlider);
         textCount.text = valueCurrent.ToString();
-        
 
+        if (valueCurrent <= 10)
+        {
+            awardImage.sprite = cSmall;
+        }
+        else if (valueCurrent > 10 && valueCurrent <= 25)
+        {
+            awardImage.sprite = cBig;
+        }
+        else
+        {
+            awardImage.sprite = cLarge;
+        }
+        
     }
 
     public void StartGame()

@@ -1,5 +1,5 @@
 {
-  "idSave": 2228,
+  "idSave": 2827,
   "isFirstSession": false,
   "language": "ru",
   "promptDone": false,
@@ -10,10 +10,10 @@
     true,
     false
   ],
-  "exitTime": "",
-  "timeSmallChest": 0.0,
-  "timeBigChest": 0.0,
-  "timeLargeChest": 0.0,
+  "exitTime": "7/16/2024 3:18:07 PM",
+  "timeSmallChest": -1584.02,
+  "timeBigChest": -1584.02,
+  "timeLargeChest": -1584.02,
   "questionsHave": [],
   "questionsNotHave": []
 }

@@ -107,6 +107,7 @@ public class ChestOpener : MonoBehaviour
 
     public void Accept()
     {
+        print("Accepted");
         AllCardsUnlocked_text.SetActive(false);
         foreach (var question in questionsToUnlock)
         {

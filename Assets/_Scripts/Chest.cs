@@ -48,6 +48,10 @@ public class Chest : MonoBehaviour
             int.TryParse(((int)currentTimeToOpen / 60).ToString(), out min);
             int.TryParse(((int)currentTimeToOpen % 60).ToString(), out sec);
             timerText.text = min.ToString() + ":" + sec.ToString();
+            if (sec < 10)
+            {
+                timerText.text = min.ToString() + ":0" + sec.ToString();
+            }
         }
     }
 

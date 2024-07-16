@@ -20,7 +20,7 @@ public class TextAnim : MonoBehaviour
         
         EventTrigger.Entry bigButt = new EventTrigger.Entry();
         bigButt.eventID = EventTriggerType.PointerEnter;
-        bigButt.callback.AddListener((eventData) => { _transform.localScale = new Vector3(1.1f, 1.1f, 1.1f); });
+        bigButt.callback.AddListener((eventData) => { _transform.localScale = new Vector3(1.05f, 1.05f, 1.05f); });
         
         _button.AddComponent<EventTrigger>();
         _button.GetComponent<EventTrigger>().triggers.Add(bigButt);

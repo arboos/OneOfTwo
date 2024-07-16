@@ -15,9 +15,9 @@ MonoBehaviour:
   Group: 3
   p1: 53
   p2: 47
-  ru_a: Dota 2
-  en_a: Dota 2
+  ru_a: "\u041C\u043E\u0449\u043D\u044B\u0439 \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440"
+  en_a: Cool PC
   tr_a: Dota 2
-  ru_b: "\u0410\u0432\u0430\u0432\u0430\u0432\u0430"
-  en_b: CS 2
-  tr_b: CS 2
+  ru_b: PlayStation 5
+  en_b: PlayStation 5
+  tr_b: PlayStation 5
