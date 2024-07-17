@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_199
+  m_EditorClassIdentifier: 
+  Group: 6
+  p1: 50
+  p2: 50
+  ru_a: "\u0421\u0442\u0430\u0442\u044C \u043B\u0443\u0447\u0448\u0438\u043C \u0431\u043E\u043A\u0441\u0435\u0440\u043E\u043C
+    \u0432 \u043C\u0438\u0440\u0435"
+  en_a: Become the best boxer in the world
+  tr_a: "D\xFCnyan\u0131n en iyi boks\xF6r\xFC ol"
+  ru_b: "\u0421\u0442\u0430\u0442\u044C \u043B\u0443\u0447\u0448\u0438\u043C \u0431\u0435\u0433\u0443\u043D\u043E\u043C
+    \u0432 \u043C\u0438\u0440\u0435"
+  en_b: Become the best runner in the world
+  tr_b: "D\xFCnyan\u0131n en iyi ko\u015Fucusu ol"

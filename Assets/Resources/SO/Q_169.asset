@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_169
+  m_EditorClassIdentifier: 
+  Group: 6
+  p1: 50
+  p2: 50
+  ru_a: "\u0423\u043C\u0435\u0442\u044C \u043F\u0440\u0435\u0432\u0440\u0430\u0449\u0430\u0442\u044C\u0441\u044F
+    \u0432 \u043B\u044E\u0431\u043E\u0439 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
+  en_a: Be able to transform into any object
+  tr_a: "Herhangi bir nesneye d\xF6n\xFC\u015Febilme"
+  ru_b: "\u0417\u043D\u0430\u0442\u044C \u0432\u0441\u0435 \u044F\u0437\u044B\u043A\u0438
+    \u0432 \u043C\u0438\u0440\u0435"
+  en_b: Know all the languages in the world
+  tr_b: "D\xFCnyadaki t\xFCm dilleri bilir"
