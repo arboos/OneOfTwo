@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_124
+  m_EditorClassIdentifier: 
+  Group: 5
+  p1: 62
+  p2: 38
+  ru_a: "\u0411\u044B\u0442\u044C \u0443\u0447\u0435\u043D\u044B\u043C"
+  en_a: To be a scientist
+  tr_a: "Bilim adam\u0131 olmak"
+  ru_b: "\u0411\u044B\u0442\u044C \u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A\u043E\u043C"
+  en_b: To be an artist
+  tr_b: "Sanat\xE7\u0131 olmak"

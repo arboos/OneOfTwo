@@ -22,9 +22,11 @@ public class Tasks : MonoBehaviour
         questionsAnswered = YandexGame.savesData.qAnswered;
         redAnswered = YandexGame.savesData.rAnswered;
         blueAnswered = YandexGame.savesData.bAnswered;
+        questionsAnsweredCorrect_WichMore = YandexGame.savesData.qAnsweredCorrect_WichMore;
     }
 
     public int questionsAnswered;
+    public int questionsAnsweredCorrect_WichMore;
     public int redAnswered;
     public int blueAnswered;
     public int tasksCompleted;

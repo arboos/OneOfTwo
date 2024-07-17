@@ -34,6 +34,7 @@ public class GameModeDefault : MonoBehaviour
         {
             notAnswered = false;
             cardA.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
+            cardA.interactable = false;
             cardB.interactable = false;
             Tasks.Instance.blueAnswered++;
             YandexGame.savesData.bAnswered = Tasks.Instance.blueAnswered;
@@ -44,6 +45,7 @@ public class GameModeDefault : MonoBehaviour
             notAnswered = false;
             cardB.transform.localScale = new Vector3(1.1f, 1.1f, 1.1f);
             cardA.interactable = false;
+            cardB.interactable = false;
             Tasks.Instance.redAnswered++;
             YandexGame.savesData.rAnswered = Tasks.Instance.redAnswered;
             YandexGame.SaveProgress();
@@ -62,6 +64,7 @@ public class GameModeDefault : MonoBehaviour
         GameManager.Instance.Chest.SetActive(true);
         GameManager.Instance.Menu.SetActive(false);
         GameManager.Instance.Chest.GetComponent<ChestOpener>().StartOpen(type);
+        GameManager.Instance.GameMode_Default.SetActive(false);
     }
 
     public void StartGameVoid(List<QuestionScriptable> questions)
@@ -80,6 +83,8 @@ public class GameModeDefault : MonoBehaviour
         foreach (var question in questions)
         {
             questionsCountInt++;
+            cardA.interactable = true;
+            cardB.interactable = true;
             questionsCount.text = questionsCountInt.ToString() + "/" + questions.Count;
             cardA.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p1.ToString() + "%";
             cardB.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = question.p2.ToString() + "%";

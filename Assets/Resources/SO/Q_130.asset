@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_130
+  m_EditorClassIdentifier: 
+  Group: 5
+  p1: 55
+  p2: 45
+  ru_a: "\u0414\u0435\u043B\u0430\u0442\u044C \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0435
+    \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043D\u0430 \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u0435"
+  en_a: Do your homework on the computer
+  tr_a: "\xD6devini bilgisayarda yap"
+  ru_b: "\u0414\u0435\u043B\u0430\u0442\u044C \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0435
+    \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u0432 \u0442\u0435\u0442\u0440\u0430\u0434\u0438"
+  en_b: Do your homework in a notebook
+  tr_b: "\xD6devini bir defterde yap"

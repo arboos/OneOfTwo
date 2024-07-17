@@ -27,6 +27,7 @@ namespace YG
         public float timeLargeChest = 0;
 
         public int qAnswered;
+        public int qAnsweredCorrect_WichMore;
         public int rAnswered;
         public int bAnswered;
         

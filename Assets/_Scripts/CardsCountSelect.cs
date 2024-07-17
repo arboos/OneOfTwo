@@ -67,5 +67,10 @@ public class CardsCountSelect : MonoBehaviour
         {
             GameManager.Instance.StartDefaultMode(valueCurrent);
         }
+        
+        else if(selfMode == 1)
+        {
+            GameManager.Instance.StartWichMoreMode(valueCurrent);
+        }
     }
 }

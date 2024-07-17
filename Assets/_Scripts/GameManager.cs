@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public GameObject Chest;
     public GameObject Gameplay;
     public GameObject GameMode_Default;
+    public GameObject GameMode_WichMore;
 
     public TextMeshProUGUI A;
     public TextMeshProUGUI B;
@@ -53,14 +54,14 @@ public class GameManager : MonoBehaviour
         QuestionsNotHave = new List<QuestionScriptable>();
         QuestionsHave = new List<QuestionScriptable>();
         QuestionsAllList = new List<QuestionScriptable>();
-        for(int i = 0; i < 50; i++)
+        for(int i = 0; i < 120; i++)
         {
             QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
         }
         if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
             // i < {Resources/SO/Questions_Count}
-            for(int i = 0; i < 50; i++)
+            for(int i = 0; i < 120; i++)
             {
                 QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
             }
@@ -128,15 +129,33 @@ public class GameManager : MonoBehaviour
             questionsToStart.Add(question);
             questionsHave.Remove(question);
         }
-
-        foreach (var q1 in questionsToStart)
-        {
-            print("Question "+q1);
-        }
         
         Menu.SetActive(false);
         GameMode_Default.SetActive(true);
         GameMode_Default.GetComponent<GameModeDefault>().StartGameVoid(questionsToStart);
+    }
+    
+    public void StartWichMoreMode(int countQ)
+    {
+        print("COUNT Q = " + countQ);
+        List<QuestionScriptable> questionsHave = new List<QuestionScriptable>();
+        List<QuestionScriptable> questionsToStart = new List<QuestionScriptable>();
+        foreach (var question in QuestionsHave)
+        {
+            questionsHave.Add(question);
+        }
+
+        for (int i = 0; i < countQ; i++)
+        {
+            int id = Random.Range(0, questionsHave.Count);
+            QuestionScriptable question = questionsHave[id];
+            questionsToStart.Add(question);
+            questionsHave.Remove(question);
+        }
+        
+        Menu.SetActive(false);
+        GameMode_WichMore.SetActive(true);
+        GameMode_WichMore.GetComponent<GameModeWichMore>().StartGameVoid(questionsToStart);
     }
     
     public void AnswerQuestion()
@@ -186,17 +205,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // private void OnApplicationQuit()
-    // {
-    //     YandexGame.ResetSaveProgress();
-    //     YandexGame.SaveProgress();
-    // }
+    private void OnApplicationQuit()
+    {
+        YandexGame.ResetSaveProgress();
+        YandexGame.SaveProgress();
+    }
 
     public enum QuestionGroup
     {
         Nature,
         Food,
         Cars,
-        Games
+        Games,
+        Punishments,
+        Education,
+        Other
     }
 }

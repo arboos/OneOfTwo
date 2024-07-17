@@ -182,6 +182,24 @@ public class TaskButton : MonoBehaviour
                     _button.interactable = true;
                 }
                 break;
+            
+            case "correct40":
+                if (Tasks.Instance.questionsAnsweredCorrect_WichMore >= 40)
+                {
+                    GetComponent<Animator>().SetBool("completed", true);
+                    PlayerPrefs.SetInt("C_"+gameObject.name, 1);
+                    _button.interactable = true;
+                }
+                break;
+            
+            case "correct100":
+                if (Tasks.Instance.questionsAnsweredCorrect_WichMore >= 100)
+                {
+                    GetComponent<Animator>().SetBool("completed", true);
+                    PlayerPrefs.SetInt("C_"+gameObject.name, 1);
+                    _button.interactable = true;
+                }
+                break;
         }
     }
     

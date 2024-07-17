@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a29e594a80be1a4ba747ca804f2c4e0, type: 3}
+  m_Name: Q_108
+  m_EditorClassIdentifier: 
+  Group: 3
+  p1: 50
+  p2: 50
+  ru_a: "\u0421\u0438\u043B\u044C\u043D\u044B\u0439 \u043F\u0435\u0440\u043E\u0441\u043D\u0430\u0436"
+  en_a: A strong character
+  tr_a: "G\xFC\xE7l\xFC bir karakter"
+  ru_b: "\u0423\u043C\u043D\u044B\u0439 \u043F\u0435\u0440\u043E\u0441\u043D\u0430\u0436"
+  en_b: A smart character
+  tr_b: "Ak\u0131ll\u0131 bir karakter"
