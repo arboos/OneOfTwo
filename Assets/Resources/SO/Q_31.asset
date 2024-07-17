@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Q_31
   m_EditorClassIdentifier: 
   Group: 0
-  p1: 50
-  p2: 50
+  p1: 97
+  p2: 3
   ru_a: "\u041F\u0440\u044B\u0433\u043D\u0443\u0442\u044C \u0441 \u0441\u0430\u043C\u043E\u043B\u0435\u0442\u0430
     \u0441 \u043F\u0430\u0440\u0430\u0448\u044E\u0442\u043E\u043C"
   en_a: Jump from a plane with a parachute
   tr_a: "Para\u015F\xFCtle u\xE7aktan atla"
-  ru_b: "\u041F\u0440\u044B\u0433\u043D\u0443\u0442\u044C \u0441 \u0441\u0430\u043C\u043E\u043B\u0435\u0442\u043E\u043C
+  ru_b: "\u041F\u0440\u044B\u0433\u043D\u0443\u0442\u044C \u0441 \u0441\u0430\u043C\u043E\u043B\u0435\u0442\u0430
     \u0431\u0435\u0437 \u043F\u0430\u0440\u0430\u0448\u044E\u0442\u0430"
   en_b: Jumping off a plane without a parachute
   tr_b: "Para\u015F\xFCts\xFCz u\xE7aktan atlamak"

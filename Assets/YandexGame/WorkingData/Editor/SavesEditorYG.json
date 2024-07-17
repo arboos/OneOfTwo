@@ -1,5 +1,5 @@
 {
-  "idSave": 4505,
+  "idSave": 4525,
   "isFirstSession": false,
   "language": "ru",
   "promptDone": false,
@@ -10,14 +10,14 @@
     true,
     false
   ],
-  "exitTime": "7/17/2024 10:20:27 PM",
-  "timeSmallChest": -177.48,
-  "timeBigChest": -1.55714417,
-  "timeLargeChest": 214.682861,
-  "qAnswered": 20,
+  "exitTime": "7/17/2024 11:18:50 PM",
+  "timeSmallChest": -3673.48,
+  "timeBigChest": -3497.55713,
+  "timeLargeChest": 592.856934,
+  "qAnswered": 26,
   "qAnsweredCorrect_WichMore": 6,
-  "rAnswered": 10,
-  "bAnswered": 10,
+  "rAnswered": 13,
+  "bAnswered": 13,
   "questionsHave": [
     {
       "Group": 5,
@@ -226,6 +226,292 @@
       "tr_b": "Çörek",
       "name": "Q_75",
       "hideFlags": 0
+    },
+    {
+      "Group": 3,
+      "p1": 50,
+      "p2": 50,
+      "ru_a": "Сильный пероснаж",
+      "en_a": "A strong character",
+      "tr_a": "Güçlü bir karakter",
+      "ru_b": "Умный пероснаж",
+      "en_b": "A smart character",
+      "tr_b": "Akıllı bir karakter",
+      "name": "Q_108",
+      "hideFlags": 0
+    },
+    {
+      "Group": 3,
+      "p1": 60,
+      "p2": 40,
+      "ru_a": "Nike",
+      "en_a": "Nike",
+      "tr_a": "Nike",
+      "ru_b": "Adidas",
+      "en_b": "Adidas",
+      "tr_b": "Adidas",
+      "name": "Q_111",
+      "hideFlags": 0
+    },
+    {
+      "Group": 3,
+      "p1": 50,
+      "p2": 50,
+      "ru_a": "Проводная мышка",
+      "en_a": "Kablolu fare",
+      "tr_a": "Wired mouse",
+      "ru_b": "Беспроводная мышка",
+      "en_b": "Wireless mouse",
+      "tr_b": "Kablosuz fare",
+      "name": "Q_119",
+      "hideFlags": 0
+    },
+    {
+      "Group": 5,
+      "p1": 15,
+      "p2": 85,
+      "ru_a": "Учиться в утреннюю смену",
+      "en_a": "Study in the morning shift",
+      "tr_a": "Sabah vardiyasında çalışma",
+      "ru_b": "Учиться в вечернюю смену",
+      "en_b": "Study in the evening shift",
+      "tr_b": "Akşam vardiyasında çalışma",
+      "name": "Q_133",
+      "hideFlags": 0
+    },
+    {
+      "Group": 1,
+      "p1": 68,
+      "p2": 32,
+      "ru_a": "Молочный шоколад",
+      "en_a": "Milk chocolate",
+      "tr_a": "Sütlü çikolata",
+      "ru_b": "Белый шоколад",
+      "en_b": "White chocolate",
+      "tr_b": "Beyaz çikolata",
+      "name": "Q_33",
+      "hideFlags": 0
+    },
+    {
+      "Group": 1,
+      "p1": 32,
+      "p2": 68,
+      "ru_a": "Суп с фрикадельками",
+      "en_a": "Soup with meatballs",
+      "tr_a": "Köfte çorbası",
+      "ru_b": "Борщ",
+      "en_b": "Borsch",
+      "tr_b": "Borsch'un",
+      "name": "Q_89",
+      "hideFlags": 0
+    },
+    {
+      "Group": 1,
+      "p1": 76,
+      "p2": 24,
+      "ru_a": "Сырный попкорн",
+      "en_a": "Cheese popcorn",
+      "tr_a": "Peynirli patlamış mısır",
+      "ru_b": "Карамельный попкорн",
+      "en_b": "Caramel popcorn",
+      "tr_b": "Karamelli patlamış mısır",
+      "name": "Q_90",
+      "hideFlags": 0
+    },
+    {
+      "Group": 1,
+      "p1": 76,
+      "p2": 24,
+      "ru_a": "Напитки со льдом",
+      "en_a": "Drinks with ice",
+      "tr_a": "Buzlu içecekler",
+      "ru_b": "Горячие напитки",
+      "en_b": "Hot drinks",
+      "tr_b": "Sıcak içecekler",
+      "name": "Q_88",
+      "hideFlags": 0
+    },
+    {
+      "Group": 1,
+      "p1": 53,
+      "p2": 47,
+      "ru_a": "Малосольные огурцы",
+      "en_a": "Lightly salted cucumbers",
+      "tr_a": "Hafif tuzlu salatalık",
+      "ru_b": "Соленые огурцы",
+      "en_b": "Pickles",
+      "tr_b": "Turşu",
+      "name": "Q_38",
+      "hideFlags": 0
+    },
+    {
+      "Group": 6,
+      "p1": 35,
+      "p2": 65,
+      "ru_a": "Не чувствовать боль",
+      "en_a": "Don't feel pain",
+      "tr_a": "Acı hissetme",
+      "ru_b": "Хорошее зрение в темноте",
+      "en_b": "Good vision in the dark",
+      "tr_b": "Karanlıkta iyi görüş",
+      "name": "Q_166",
+      "hideFlags": 0
+    },
+    {
+      "Group": 6,
+      "p1": 85,
+      "p2": 15,
+      "ru_a": "Футбол",
+      "en_a": "Football",
+      "tr_a": "Futbol",
+      "ru_b": "Баскетбол",
+      "en_b": "Basketball",
+      "tr_b": "Basketbol",
+      "name": "Q_157",
+      "hideFlags": 0
+    },
+    {
+      "Group": 6,
+      "p1": 70,
+      "p2": 30,
+      "ru_a": "Уметь чинить любые машины",
+      "en_a": "Be able to repair any car",
+      "tr_a": "Herhangi bir arabayı tamir edebilmek",
+      "ru_b": "Уметь писать любые программы",
+      "en_b": "Be able to write any program",
+      "tr_b": "Herhangi bir program yazabilme",
+      "name": "Q_187",
+      "hideFlags": 0
+    },
+    {
+      "Group": 6,
+      "p1": 35,
+      "p2": 65,
+      "ru_a": "Не чувствовать боль",
+      "en_a": "Don't feel pain",
+      "tr_a": "Acı hissetme",
+      "ru_b": "Уметь телепортироваться",
+      "en_b": "Be able to teleport",
+      "tr_b": "Işınlanabilme",
+      "name": "Q_165",
+      "hideFlags": 0
+    },
+    {
+      "Group": 6,
+      "p1": 50,
+      "p2": 50,
+      "ru_a": "Знать английский язык",
+      "en_a": "Know English",
+      "tr_a": "İngilizce bilmek",
+      "ru_b": "Знать испанский язык",
+      "en_b": "Know Spanish",
+      "tr_b": "İspanyolca bilmek",
+      "name": "Q_200",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 95,
+      "p2": 5,
+      "ru_a": "Пойти в поход с друзьями",
+      "en_a": "Go camping with friends",
+      "tr_a": "Arkadaşlarla kampa git",
+      "ru_b": "Пойти в поход одному",
+      "en_b": "Go camping alone",
+      "tr_b": "Yalnız kampa git",
+      "name": "Q_13",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 9,
+      "p2": 91,
+      "ru_a": "Попасть на 400 лет назад на день",
+      "en_a": "To get to 400 years ago for a day",
+      "tr_a": "Bir günlüğüne 400 yıl öncesine ulaşmak için",
+      "ru_b": "Попасть на 100 лет вперед на день",
+      "en_b": "To get 100 years ahead of the day",
+      "tr_b": "Günün 100 yılını geride bırakmak için",
+      "name": "Q_5",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 49,
+      "p2": 51,
+      "ru_a": "Поехать на отдых в Турцию",
+      "en_a": "Go on vacation to Turkey",
+      "tr_a": "Türkiye'ye tatile git",
+      "ru_b": "Поехать на отдых во Францию",
+      "en_b": "Go on vacation to France",
+      "tr_b": "Fransa'ya tatile git",
+      "name": "Q_36",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 50,
+      "p2": 50,
+      "ru_a": "Прыгнуть с самолета с парашютом",
+      "en_a": "Jump from a plane with a parachute",
+      "tr_a": "Paraşütle uçaktan atla",
+      "ru_b": "Прыгнуть с самолетом без парашюта",
+      "en_b": "Jumping off a plane without a parachute",
+      "tr_b": "Paraşütsüz uçaktan atlamak",
+      "name": "Q_31",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 25,
+      "p2": 75,
+      "ru_a": "Наблюдать за бабочками",
+      "en_a": "Watching the butterflies",
+      "tr_a": "Kelebekleri izlemek",
+      "ru_b": "Наблюдать за муравьями",
+      "en_b": "Watching the ants",
+      "tr_b": "Karıncaları izlemek",
+      "name": "Q_69",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 73,
+      "p2": 27,
+      "ru_a": "Кемпинг в палатке",
+      "en_a": "Camping in a tent",
+      "tr_a": "Çadırda kamp yapmak",
+      "ru_b": "Кемпинг в домике",
+      "en_b": "Camping in the cabin",
+      "tr_b": "Kabinde kamp yapmak",
+      "name": "Q_55",
+      "hideFlags": 0
+    },
+    {
+      "Group": 0,
+      "p1": 38,
+      "p2": 62,
+      "ru_a": "Сходить в баню",
+      "en_a": "Go to the sauna",
+      "tr_a": "Saunaya git",
+      "ru_b": "Сходить на рыбалку",
+      "en_b": "Go fishing",
+      "tr_b": "Balık tutmaya git",
+      "name": "Q_14",
+      "hideFlags": 0
+    },
+    {
+      "Group": 2,
+      "p1": 22,
+      "p2": 78,
+      "ru_a": "Высокая машина",
+      "en_a": "The tall machine",
+      "tr_a": "Uzun makine",
+      "ru_b": "Заниженная машина",
+      "en_b": "Understated car",
+      "tr_b": "Sade araba",
+      "name": "Q_94",
+      "hideFlags": 0
     }
   ],
   "questionsNotHave": [
@@ -292,19 +578,6 @@
       "en_b": "Forget to take a tent camping",
       "tr_b": "Kamp çadırı almayı unut",
       "name": "Q_4",
-      "hideFlags": 0
-    },
-    {
-      "Group": 0,
-      "p1": 9,
-      "p2": 91,
-      "ru_a": "Попасть на 400 лет назад на день",
-      "en_a": "To get to 400 years ago for a day",
-      "tr_a": "Bir günlüğüne 400 yıl öncesine ulaşmak için",
-      "ru_b": "Попасть на 100 лет вперед на день",
-      "en_b": "To get 100 years ahead of the day",
-      "tr_b": "Günün 100 yılını geride bırakmak için",
-      "name": "Q_5",
       "hideFlags": 0
     },
     {
@@ -383,32 +656,6 @@
       "en_b": "Business trip to Finland",
       "tr_b": "Finlandiya'ya iş gezisi",
       "name": "Q_11",
-      "hideFlags": 0
-    },
-    {
-      "Group": 0,
-      "p1": 95,
-      "p2": 5,
-      "ru_a": "Пойти в поход с друзьями",
-      "en_a": "Go camping with friends",
-      "tr_a": "Arkadaşlarla kampa git",
-      "ru_b": "Пойти в поход одному",
-      "en_b": "Go camping alone",
-      "tr_b": "Yalnız kampa git",
-      "name": "Q_13",
-      "hideFlags": 0
-    },
-    {
-      "Group": 0,
-      "p1": 38,
-      "p2": 62,
-      "ru_a": "Сходить в баню",
-      "en_a": "Go to the sauna",
-      "tr_a": "Saunaya git",
-      "ru_b": "Сходить на рыбалку",
-      "en_b": "Go fishing",
-      "tr_b": "Balık tutmaya git",
-      "name": "Q_14",
       "hideFlags": 0
     },
     {
@@ -607,19 +854,6 @@
       "hideFlags": 0
     },
     {
-      "Group": 0,
-      "p1": 50,
-      "p2": 50,
-      "ru_a": "Прыгнуть с самолета с парашютом",
-      "en_a": "Jump from a plane with a parachute",
-      "tr_a": "Paraşütle uçaktan atla",
-      "ru_b": "Прыгнуть с самолетом без парашюта",
-      "en_b": "Jumping off a plane without a parachute",
-      "tr_b": "Paraşütsüz uçaktan atlamak",
-      "name": "Q_31",
-      "hideFlags": 0
-    },
-    {
       "Group": 1,
       "p1": 21,
       "p2": 79,
@@ -630,19 +864,6 @@
       "en_b": "Grilled meat",
       "tr_b": "Izgara et",
       "name": "Q_32",
-      "hideFlags": 0
-    },
-    {
-      "Group": 1,
-      "p1": 68,
-      "p2": 32,
-      "ru_a": "Молочный шоколад",
-      "en_a": "Milk chocolate",
-      "tr_a": "Sütlü çikolata",
-      "ru_b": "Белый шоколад",
-      "en_b": "White chocolate",
-      "tr_b": "Beyaz çikolata",
-      "name": "Q_33",
       "hideFlags": 0
     },
     {
@@ -672,19 +893,6 @@
       "hideFlags": 0
     },
     {
-      "Group": 0,
-      "p1": 49,
-      "p2": 51,
-      "ru_a": "Поехать на отдых в Турцию",
-      "en_a": "Go on vacation to Turkey",
-      "tr_a": "Türkiye'ye tatile git",
-      "ru_b": "Поехать на отдых во Францию",
-      "en_b": "Go on vacation to France",
-      "tr_b": "Fransa'ya tatile git",
-      "name": "Q_36",
-      "hideFlags": 0
-    },
-    {
       "Group": 1,
       "p1": 67,
       "p2": 33,
@@ -695,19 +903,6 @@
       "en_b": "Yantyk",
       "tr_b": "Yantyk'nın sohbeti",
       "name": "Q_37",
-      "hideFlags": 0
-    },
-    {
-      "Group": 1,
-      "p1": 53,
-      "p2": 47,
-      "ru_a": "Малосольные огурцы",
-      "en_a": "Lightly salted cucumbers",
-      "tr_a": "Hafif tuzlu salatalık",
-      "ru_b": "Соленые огурцы",
-      "en_b": "Pickles",
-      "tr_b": "Turşu",
-      "name": "Q_38",
       "hideFlags": 0
     },
     {
@@ -864,19 +1059,6 @@
       "en_b": "Watch the dawn",
       "tr_b": "Şafağı izle",
       "name": "Q_54",
-      "hideFlags": 0
-    },
-    {
-      "Group": 0,
-      "p1": 73,
-      "p2": 27,
-      "ru_a": "Кемпинг в палатке",
-      "en_a": "Camping in a tent",
-      "tr_a": "Çadırda kamp yapmak",
-      "ru_b": "Кемпинг в домике",
-      "en_b": "Camping in the cabin",
-      "tr_b": "Kabinde kamp yapmak",
-      "name": "Q_55",
       "hideFlags": 0
     },
     {
@@ -1046,19 +1228,6 @@
       "en_b": "Go to the aquarium",
       "tr_b": "Akvaryuma git",
       "name": "Q_68",
-      "hideFlags": 0
-    },
-    {
-      "Group": 0,
-      "p1": 25,
-      "p2": 75,
-      "ru_a": "Наблюдать за бабочками",
-      "en_a": "Watching the butterflies",
-      "tr_a": "Kelebekleri izlemek",
-      "ru_b": "Наблюдать за муравьями",
-      "en_b": "Watching the ants",
-      "tr_b": "Karıncaları izlemek",
-      "name": "Q_69",
       "hideFlags": 0
     },
     {
@@ -1257,45 +1426,6 @@
       "hideFlags": 0
     },
     {
-      "Group": 1,
-      "p1": 76,
-      "p2": 24,
-      "ru_a": "Напитки со льдом",
-      "en_a": "Drinks with ice",
-      "tr_a": "Buzlu içecekler",
-      "ru_b": "Горячие напитки",
-      "en_b": "Hot drinks",
-      "tr_b": "Sıcak içecekler",
-      "name": "Q_88",
-      "hideFlags": 0
-    },
-    {
-      "Group": 1,
-      "p1": 32,
-      "p2": 68,
-      "ru_a": "Суп с фрикадельками",
-      "en_a": "Soup with meatballs",
-      "tr_a": "Köfte çorbası",
-      "ru_b": "Борщ",
-      "en_b": "Borsch",
-      "tr_b": "Borsch'un",
-      "name": "Q_89",
-      "hideFlags": 0
-    },
-    {
-      "Group": 1,
-      "p1": 76,
-      "p2": 24,
-      "ru_a": "Сырный попкорн",
-      "en_a": "Cheese popcorn",
-      "tr_a": "Peynirli patlamış mısır",
-      "ru_b": "Карамельный попкорн",
-      "en_b": "Caramel popcorn",
-      "tr_b": "Karamelli patlamış mısır",
-      "name": "Q_90",
-      "hideFlags": 0
-    },
-    {
       "Group": 2,
       "p1": 76,
       "p2": 24,
@@ -1332,19 +1462,6 @@
       "en_b": "Participate in an off-road race",
       "tr_b": "Bir off-road yarışına katılın",
       "name": "Q_93",
-      "hideFlags": 0
-    },
-    {
-      "Group": 2,
-      "p1": 22,
-      "p2": 78,
-      "ru_a": "Высокая машина",
-      "en_a": "The tall machine",
-      "tr_a": "Uzun makine",
-      "ru_b": "Заниженная машина",
-      "en_b": "Understated car",
-      "tr_b": "Sade araba",
-      "name": "Q_94",
       "hideFlags": 0
     },
     {
@@ -1518,19 +1635,6 @@
     },
     {
       "Group": 3,
-      "p1": 50,
-      "p2": 50,
-      "ru_a": "Сильный пероснаж",
-      "en_a": "A strong character",
-      "tr_a": "Güçlü bir karakter",
-      "ru_b": "Умный пероснаж",
-      "en_b": "A smart character",
-      "tr_b": "Akıllı bir karakter",
-      "name": "Q_108",
-      "hideFlags": 0
-    },
-    {
-      "Group": 3,
       "p1": 24,
       "p2": 76,
       "ru_a": "Ноутбук",
@@ -1553,19 +1657,6 @@
       "en_b": "Android",
       "tr_b": "Android",
       "name": "Q_110",
-      "hideFlags": 0
-    },
-    {
-      "Group": 3,
-      "p1": 60,
-      "p2": 40,
-      "ru_a": "Nike",
-      "en_a": "Nike",
-      "tr_a": "Nike",
-      "ru_b": "Adidas",
-      "en_b": "Adidas",
-      "tr_b": "Adidas",
-      "name": "Q_111",
       "hideFlags": 0
     },
     {
@@ -1644,19 +1735,6 @@
       "en_b": "DC",
       "tr_b": "DC",
       "name": "Q_117",
-      "hideFlags": 0
-    },
-    {
-      "Group": 3,
-      "p1": 50,
-      "p2": 50,
-      "ru_a": "Проводная мышка",
-      "en_a": "Kablolu fare",
-      "tr_a": "Wired mouse",
-      "ru_b": "Беспроводная мышка",
-      "en_b": "Wireless mouse",
-      "tr_b": "Kablosuz fare",
-      "name": "Q_119",
       "hideFlags": 0
     },
     {
@@ -1787,19 +1865,6 @@
       "en_b": "Work in the office",
       "tr_b": "Ofiste çalışmak",
       "name": "Q_131",
-      "hideFlags": 0
-    },
-    {
-      "Group": 5,
-      "p1": 15,
-      "p2": 85,
-      "ru_a": "Учиться в утреннюю смену",
-      "en_a": "Study in the morning shift",
-      "tr_a": "Sabah vardiyasında çalışma",
-      "ru_b": "Учиться в вечернюю смену",
-      "en_b": "Study in the evening shift",
-      "tr_b": "Akşam vardiyasında çalışma",
-      "name": "Q_133",
       "hideFlags": 0
     },
     {
@@ -2090,19 +2155,6 @@
     },
     {
       "Group": 6,
-      "p1": 85,
-      "p2": 15,
-      "ru_a": "Футбол",
-      "en_a": "Football",
-      "tr_a": "Futbol",
-      "ru_b": "Баскетбол",
-      "en_b": "Basketball",
-      "tr_b": "Basketbol",
-      "name": "Q_157",
-      "hideFlags": 0
-    },
-    {
-      "Group": 6,
       "p1": 10,
       "p2": 90,
       "ru_a": "Стать роботом на один день",
@@ -2177,32 +2229,6 @@
       "en_b": "Be able to teleport",
       "tr_b": "Işınlanabilme",
       "name": "Q_164",
-      "hideFlags": 0
-    },
-    {
-      "Group": 6,
-      "p1": 35,
-      "p2": 65,
-      "ru_a": "Не чувствовать боль",
-      "en_a": "Don't feel pain",
-      "tr_a": "Acı hissetme",
-      "ru_b": "Уметь телепортироваться",
-      "en_b": "Be able to teleport",
-      "tr_b": "Işınlanabilme",
-      "name": "Q_165",
-      "hideFlags": 0
-    },
-    {
-      "Group": 6,
-      "p1": 35,
-      "p2": 65,
-      "ru_a": "Не чувствовать боль",
-      "en_a": "Don't feel pain",
-      "tr_a": "Acı hissetme",
-      "ru_b": "Хорошее зрение в темноте",
-      "en_b": "Good vision in the dark",
-      "tr_b": "Karanlıkta iyi görüş",
-      "name": "Q_166",
       "hideFlags": 0
     },
     {
@@ -2456,19 +2482,6 @@
       "Group": 6,
       "p1": 70,
       "p2": 30,
-      "ru_a": "Уметь чинить любые машины",
-      "en_a": "Be able to repair any car",
-      "tr_a": "Herhangi bir arabayı tamir edebilmek",
-      "ru_b": "Уметь писать любые программы",
-      "en_b": "Be able to write any program",
-      "tr_b": "Herhangi bir program yazabilme",
-      "name": "Q_187",
-      "hideFlags": 0
-    },
-    {
-      "Group": 6,
-      "p1": 70,
-      "p2": 30,
       "ru_a": "Застрять в пустыне на три дня",
       "en_a": "Stuck in the desert for three days",
       "tr_a": "Üç gün boyunca çölde sıkışıp kaldım",
@@ -2619,19 +2632,6 @@
       "en_b": "Become the best runner in the world",
       "tr_b": "Dünyanın en iyi koşucusu ol",
       "name": "Q_199",
-      "hideFlags": 0
-    },
-    {
-      "Group": 6,
-      "p1": 50,
-      "p2": 50,
-      "ru_a": "Знать английский язык",
-      "en_a": "Know English",
-      "tr_a": "İngilizce bilmek",
-      "ru_b": "Знать испанский язык",
-      "en_b": "Know Spanish",
-      "tr_b": "İspanyolca bilmek",
-      "name": "Q_200",
       "hideFlags": 0
     }
   ]
