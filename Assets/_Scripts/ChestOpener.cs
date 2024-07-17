@@ -121,6 +121,8 @@ public class ChestOpener : MonoBehaviour
             Destroy(lootLayout.GetChild(i).gameObject);
         }
 
+        GameObject.FindObjectOfType<MainButtons>().GetComponent<Button>().interactable = true;
+        
         YandexGame.savesData.questionsHave = GameManager.Instance.QuestionsHave;
         YandexGame.savesData.questionsNotHave = GameManager.Instance.QuestionsNotHave;
         YandexGame.SaveProgress();

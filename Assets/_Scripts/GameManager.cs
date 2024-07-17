@@ -54,14 +54,14 @@ public class GameManager : MonoBehaviour
         QuestionsNotHave = new List<QuestionScriptable>();
         QuestionsHave = new List<QuestionScriptable>();
         QuestionsAllList = new List<QuestionScriptable>();
-        for(int i = 0; i < 120; i++)
+        for(int i = 0; i < 201; i++)
         {
             QuestionsAllList.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
         }
         if (YandexGame.savesData.questionsNotHave.Count == 0 && YandexGame.savesData.questionsHave.Count == 0)
         {
             // i < {Resources/SO/Questions_Count}
-            for(int i = 0; i < 120; i++)
+            for(int i = 0; i < 201; i++)
             {
                 QuestionsNotHave.Add(Resources.Load<QuestionScriptable>("SO/" + "Q_"+i.ToString()));
             }
@@ -205,11 +205,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void OnApplicationQuit()
-    {
-        YandexGame.ResetSaveProgress();
-        YandexGame.SaveProgress();
-    }
+    // private void OnApplicationQuit()
+    // {
+    //     YandexGame.ResetSaveProgress();
+    //     YandexGame.SaveProgress();
+    // }
 
     public enum QuestionGroup
     {
