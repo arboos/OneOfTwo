@@ -39,6 +39,8 @@ public class GameModeDefault : MonoBehaviour
             Tasks.Instance.blueAnswered++;
             YandexGame.savesData.bAnswered = Tasks.Instance.blueAnswered;
             YandexGame.SaveProgress();
+            SoundsBaseCollection.Instance.cardClickSound.Play();
+
         });
         cardB.onClick.AddListener(delegate
         {
@@ -49,6 +51,7 @@ public class GameModeDefault : MonoBehaviour
             Tasks.Instance.redAnswered++;
             YandexGame.savesData.rAnswered = Tasks.Instance.redAnswered;
             YandexGame.SaveProgress();
+            SoundsBaseCollection.Instance.cardClickSound.Play();
         });
         openReward.onClick.AddListener(delegate
         {
@@ -82,6 +85,8 @@ public class GameModeDefault : MonoBehaviour
         questionsCountInt = 0;
         foreach (var question in questions)
         {
+            SoundsBaseCollection.Instance.cardOn.Play();
+
             questionsCountInt++;
             cardA.interactable = true;
             cardB.interactable = true;
@@ -138,6 +143,7 @@ public class GameModeDefault : MonoBehaviour
 
             cardA.GetComponent<Animator>().SetTrigger("Out");
             cardB.GetComponent<Animator>().SetTrigger("Out");
+            SoundsBaseCollection.Instance.cardAway.Play();
 
             yield return new WaitForSeconds(1f);
 
@@ -146,6 +152,8 @@ public class GameModeDefault : MonoBehaviour
 
         gameplayWindow.SetActive(false);
         awardWindow.SetActive(true);
+        SoundsBaseCollection.Instance.cardOpenEndSound.Play();
+        
         if (questions.Count <= 10)
         {
             chestToGiveImage.sprite = chestSmall;

@@ -48,6 +48,8 @@ public class GameModeWichMore : MonoBehaviour
             Tasks.Instance.blueAnswered++;
             YandexGame.savesData.bAnswered = Tasks.Instance.blueAnswered;
             YandexGame.SaveProgress();
+            SoundsBaseCollection.Instance.cardClickSound.Play();
+
         });
         cardB.onClick.AddListener(delegate
         {
@@ -59,6 +61,8 @@ public class GameModeWichMore : MonoBehaviour
             Tasks.Instance.redAnswered++;
             YandexGame.savesData.rAnswered = Tasks.Instance.redAnswered;
             YandexGame.SaveProgress();
+            SoundsBaseCollection.Instance.cardClickSound.Play();
+
         });
         openReward.onClick.AddListener(delegate
         {
@@ -92,6 +96,8 @@ public class GameModeWichMore : MonoBehaviour
         questionsCountInt = 0;
         foreach (var question in questions)
         {
+            SoundsBaseCollection.Instance.cardOn.Play();
+
             textCorrect.SetActive(false);
             textIncorrect.SetActive(false);
             questionsCountInt++;
@@ -190,6 +196,10 @@ public class GameModeWichMore : MonoBehaviour
 
         gameplayWindow.SetActive(false);
         awardWindow.SetActive(true);
+        SoundsBaseCollection.Instance.cardOpenEndSound.Play();
+        SoundsBaseCollection.Instance.cardAway.Play();
+
+
         if (questions.Count <= 10)
         {
             chestToGiveImage.sprite = chestSmall;

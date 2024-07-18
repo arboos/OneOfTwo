@@ -34,7 +34,7 @@ public class ChestOpener : MonoBehaviour
         {
                 
             case Chest.ChestType.Small:
-                iMin = 3;
+                iMin = 5;
                 iMax = 6;
                 break;
             
@@ -89,12 +89,17 @@ public class ChestOpener : MonoBehaviour
             cardGO.transform.parent = lootLayout;
             cardGO.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("SO/Sprites/"+cards[i].Group.ToString());
             cardGO.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = "+"+counter;
+            SoundsBaseCollection.Instance.cardUnlockSound.Play();
 
             counter = 1;
             yield return new WaitForSeconds(0.5f);
         }
 
         if (cards.Count == 0) AllCardsUnlocked_text.SetActive(true);
+        else
+        {
+            SoundsBaseCollection.Instance.cardOpenEndSound.Play();
+        }
         AcceptButton.gameObject.SetActive(true);
     }
 
