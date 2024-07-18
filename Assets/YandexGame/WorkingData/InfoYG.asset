@@ -250,7 +250,7 @@ MonoBehaviour:
     ru:
     - {fileID: 11400000, guid: d0e0c37c760975e409f65c1b1789de67, type: 2}
     en:
-    - {fileID: 11400000, guid: 4e8267546399d944d9e9612356656e89, type: 2}
+    - {fileID: 11400000, guid: d0e0c37c760975e409f65c1b1789de67, type: 2}
     tr:
     - {fileID: 11400000, guid: d0e0c37c760975e409f65c1b1789de67, type: 2}
     az: []

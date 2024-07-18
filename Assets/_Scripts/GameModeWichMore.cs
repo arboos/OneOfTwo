@@ -180,6 +180,8 @@ public class GameModeWichMore : MonoBehaviour
             Tasks.Instance.questionsAnswered++;
             YandexGame.savesData.qAnswered++;
             YandexGame.SaveProgress();
+            
+            YandexGame.NewLeaderboardScores("Questions", Tasks.Instance.questionsAnswered);
 
             cardA.transform.GetChild(1).gameObject.SetActive(true);
             cardB.transform.GetChild(1).gameObject.SetActive(true);

@@ -52,6 +52,7 @@ public class GameModeDefault : MonoBehaviour
             YandexGame.savesData.rAnswered = Tasks.Instance.redAnswered;
             YandexGame.SaveProgress();
             SoundsBaseCollection.Instance.cardClickSound.Play();
+            
         });
         openReward.onClick.AddListener(delegate
         {
@@ -135,6 +136,8 @@ public class GameModeDefault : MonoBehaviour
             Tasks.Instance.questionsAnswered++;
             YandexGame.savesData.qAnswered++;
             YandexGame.SaveProgress();
+            
+            YandexGame.NewLeaderboardScores("Questions", Tasks.Instance.questionsAnswered);
 
             cardA.transform.GetChild(1).gameObject.SetActive(true);
             cardB.transform.GetChild(1).gameObject.SetActive(true);
